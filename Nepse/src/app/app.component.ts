@@ -9,14 +9,7 @@ import { Company } from '../models/company';
 })
 export class AppComponent implements OnInit {
   title = 'Nepse';
-  allCompanies: Company [] = [];
-  constructor(private testservice: TestService) {
-
-  }
   ngOnInit() {
-    this.testservice.getData().subscribe(company => {
-      this.allCompanies = company;
-    //console.log(this.allCompanies)
-    });
+
   }
 }

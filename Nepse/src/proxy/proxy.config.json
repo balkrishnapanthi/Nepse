@@ -1,0 +1,7 @@
+{
+  "/handlers": {
+    "target": "https://merolagani.com",
+    "secure": false,
+    "changeOrigin": true
+  }
+}
