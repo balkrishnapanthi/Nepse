@@ -1,1 +1,2 @@
 ng build --prod --base-href=/Nepse/
+npm install --save-dev @angular/cli@14.2.13 -> upgrade local cli version
