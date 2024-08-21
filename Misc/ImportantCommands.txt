@@ -1,2 +1,9 @@
 ng build --prod --base-href=/Nepse/
 npm install --save-dev @angular/cli@14.2.13 -> upgrade local cli version
+npm i datatables.net@1.12.0
+npm i @types/datatables.net@1.10
+npm i jquery
+npm i@type/jquery
+npm i bootstrap
+npm i datatables.net-bs5
+npm i  @types/angular-datatables@12.0.0

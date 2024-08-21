@@ -14,11 +14,16 @@ export class CompanyDetailsComponent implements OnInit {
   symbol: string = "";
   companyDetail: companyDetails = new companyDetails(); 
   nepseData: nepseData[] = [];
+  dtOptions: DataTables.Settings = {};
   constructor(private route: ActivatedRoute, private test: TestService) {
 
   }
 
   ngOnInit(): void {
+
+
+    
+
     this.symbol = this.route.snapshot.params["symbol"];
     console.log(this.symbol);
     this.test.getCompanyData(this.symbol).subscribe(compData => {
