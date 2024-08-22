@@ -24,6 +24,9 @@ export class CompanyDetailsComponent implements OnInit {
 
   }
 
+  ngAfterViewInit() {
+    this.dtTrigger.next(false);
+  }
   ngOnInit(): void {
 
 
